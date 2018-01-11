@@ -1,0 +1,29 @@
+//
+//  Prefix.pch
+//  YourNews
+//
+//  Created by 康凯 on 2018/1/8.
+//  Copyright © 2018年 kai. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#import "URLManager.h"
+#import <AFNetworking.h>
+#import <MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIImage+GIF.h>
+#import <FLAnimatedImage/FLAnimatedImage.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define TEXTHEADURL @"https://route.showapi.com/341-1"
+#define IMGHEADURL @"https://route.showapi.com/341-2"
+#define GIFHEADURL @"https://route.showapi.com/341-3"
+
+#define APPID  @"52035"
+#define SIGNID  @"644ebbc75d1b43d8b56edd8d163a6ea2"
+
+
+#endif /* Prefix_pch */
